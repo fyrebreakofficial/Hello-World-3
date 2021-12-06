@@ -18,7 +18,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (64.0f));
     g.setColour (juce::Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("Hello World! I've got a penis.", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
